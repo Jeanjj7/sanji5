@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root {
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+
+body {
+    margin: 0px;
+    font-family: "Plus Jakarta Sans";
+    
+
+}
+.texto_clo{
+    color: var(--Azul);
+}
+
+#container {
+    width: 95%;
+    padding: 5px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+#header img {
+    margin-top: 10px;
+}
+
+#account {
+    font-size: 15px;
+    color: var(--Azul);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.conteiner2 {
+    display: flex;
+    color: var(--Texto_escuro);
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+
+#text2 {
+    margin-right: 50px;
+    text-align: left;
+}
+
+#text2 h1{
+    width: 50px;
+    font-size: 3em;
+    line-height: 1.2;
+}
+
+#text p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#text2 #cadastrar #funciona {
+    margin-top: 200px;
+
+}
+#cadastrar #fuciona{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+#cadastrar{
+    background-color: var(--Azul); 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/**/
+#conteiner3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 23%;
+    border-radius: 10px;
+}
+
+/**/
+
+.container4 {
+    text-align: center;
+    max-width: 1200px;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #1b1f3b;
+    margin-bottom: 20px;
+}
+
+.destinos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.caixa4 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.caixa4 .info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.caixa4 .info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.caixa4 .info p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.fernando {
+    background-image: url('imagem/destino2.png');
+}
+
+.atlas {
+    background-image: url('imagem/destino1.png');
+}
+
+.valparaiso {
+    background-image: url('imagem/destino5.png');
+}
+
+.begijnhof {
+    background-image: url('imagem/destino4.png');
+}
